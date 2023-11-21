@@ -46,6 +46,8 @@
   width: 200px;
   height: 100vh;
   border-right: 1px solid #ccc;
+  background-color: #f8f9fa;
+  padding: 20px;
 }
 
 .content {
@@ -63,4 +65,24 @@
 .project {
   width: 45%;
   
+}
+
+.sidebar button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: #0056b3;
+}
+.github-link {
+  position: absolute;
+  top: 1%;
+  left: 90%;
 }
