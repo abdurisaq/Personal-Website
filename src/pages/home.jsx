@@ -14,6 +14,7 @@ function Home({ goToAboutMe }) {
         <p>bio</p>
       </section>
       <button onClick={goToAboutMe}>About Me</button>
+
      <div>Image of me Here</div>
     </div>
   );
