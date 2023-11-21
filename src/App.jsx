@@ -12,12 +12,13 @@ function App() {
   const [page, setPage] = useState('home');
 
   const goToAboutMe = () => setPage('aboutMe');
+  const goToContactMe = () => setPage('contact');
   return (
     <div className="App">
       <Sidebar setPage={setPage} />
       <div className="content">
       {page === 'home' && <HomePage goToAboutMe={goToAboutMe} />}
-      {page === 'aboutMe' && <AboutPage />}
+      {page === 'aboutMe' && <AboutPage goToContactMe={goToContactMe}/>}
       {page === 'projects' && <ProjectPage />}
       {page === 'contact' && <ContactPage />}
       {page === 'education' && <EducationTab />}
