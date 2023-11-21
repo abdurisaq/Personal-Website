@@ -46,6 +46,8 @@
   width: 200px;
   height: 100vh;
   border-right: 1px solid #ccc;
+  background-color: #f8f9fa;
+  padding: 20px;
 }
 
 .content {

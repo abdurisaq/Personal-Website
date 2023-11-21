@@ -8,6 +8,7 @@ function Sidebar({ setPage }) {
       <button className="sidebar_button" onClick={() => setPage('projects')}>Projects</button>
       <button className="sidebar_button" onClick={() => setPage('contact')}>Contact</button>
       <button className="sidebar_button" onClick={() => setPage('education')}>Education</button>
+
     </div>
   );
 }
