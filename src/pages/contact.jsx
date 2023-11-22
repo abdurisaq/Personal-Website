@@ -1,4 +1,5 @@
 import React from 'react';
+import twitter from '../images/twitter-logo.png';
 
 function Contact() {
   const contactInfo = {
@@ -14,6 +15,7 @@ function Contact() {
       <p>Phone Number: {contactInfo.phoneNumber}</p>
       <p>Email: <a href ={contactInfo.email}>abdurizaq@outlook.com</a></p>
       <p>Twitter: <a href={contactInfo.twitter}>DuriRL</a></p>
+      <img src={twitter} alt={`${twitter} logo`} />
     </div>
   );
 }
