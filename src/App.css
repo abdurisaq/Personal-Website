@@ -49,21 +49,26 @@
   background-color: #f8f9fa;
   padding: 20px;
 }
-
+.body{
+  display:flex;
+}
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  max-width: 80%;
 }
 
 .projects-container {
   display: flex;
   justify-content: space-around;
+  max-width: 100%;
+  align-items: flex-start;
 }
 
 .project {
-  width: 45%;
+  max-width: 30%;
   
 }
 
@@ -90,4 +95,7 @@
   border: 1px solid #000;
   padding: 5px;
   margin: 5px;
+}
+html {
+  overflow-x: scroll;
 }
