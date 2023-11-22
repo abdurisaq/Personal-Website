@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.7e40805c.css",
+    "main.js": "/Personal-Website/static/js/main.d03904a8.js",
+    "static/js/787.0f15b36d.chunk.js": "/Personal-Website/static/js/787.0f15b36d.chunk.js",
+    "static/media/Mcmath-logo.jpg": "/Personal-Website/static/media/Mcmath-logo.d198ae42b84a3b4fc3e9.jpg",
+    "index.html": "/Personal-Website/index.html",
+    "main.7e40805c.css.map": "/Personal-Website/static/css/main.7e40805c.css.map",
+    "main.d03904a8.js.map": "/Personal-Website/static/js/main.d03904a8.js.map",
+    "787.0f15b36d.chunk.js.map": "/Personal-Website/static/js/787.0f15b36d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e40805c.css",
+    "static/js/main.d03904a8.js"
+  ]
+}
