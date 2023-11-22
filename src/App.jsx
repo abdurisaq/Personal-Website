@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './pages/home';
 import AboutPage from './pages/about';
@@ -6,7 +5,7 @@ import React, { useState } from 'react';
 import ProjectPage from './pages/projects';
 import ContactPage from './pages/contact';
 import EducationTab from './pages/education';
-
+import Sidebar from './sidebar';
 
 function App() {
   const [page, setPage] = useState('home');
