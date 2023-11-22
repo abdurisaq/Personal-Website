@@ -58,6 +58,7 @@
   align-items: center;
   flex-grow: 1;
   max-width: 80%;
+  max-height: 100%;
 }
 
 .projects-container {
@@ -97,5 +98,5 @@
   margin: 5px;
 }
 html {
-  overflow-x: scroll;
+  overflow:hidden;
 }
